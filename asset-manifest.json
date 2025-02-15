@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/employee-management-system/static/css/main.51802bfd.css",
+    "main.js": "/employee-management-system/static/js/main.0eb0b1ed.js",
+    "static/js/239.52c8c454.chunk.js": "/employee-management-system/static/js/239.52c8c454.chunk.js",
+    "static/js/213.2126a137.chunk.js": "/employee-management-system/static/js/213.2126a137.chunk.js",
+    "static/js/732.9d38cc22.chunk.js": "/employee-management-system/static/js/732.9d38cc22.chunk.js",
+    "index.html": "/employee-management-system/index.html",
+    "main.51802bfd.css.map": "/employee-management-system/static/css/main.51802bfd.css.map",
+    "main.0eb0b1ed.js.map": "/employee-management-system/static/js/main.0eb0b1ed.js.map",
+    "239.52c8c454.chunk.js.map": "/employee-management-system/static/js/239.52c8c454.chunk.js.map",
+    "213.2126a137.chunk.js.map": "/employee-management-system/static/js/213.2126a137.chunk.js.map",
+    "732.9d38cc22.chunk.js.map": "/employee-management-system/static/js/732.9d38cc22.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51802bfd.css",
+    "static/js/main.0eb0b1ed.js"
+  ]
+}

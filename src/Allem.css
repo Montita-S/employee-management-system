@@ -1,0 +1,126 @@
+.patchwork-frame {
+    border: 3px dashed #000000;
+    background-color: #ffffff; 
+    padding: 5px; 
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px; 
+    border-radius: 40px; 
+    transition: all 0.3s ease;
+    display: flex;               
+    flex-direction: column;       
+    align-items: center;         
+    justify-content: center;  
+}
+.frame2{
+    margin-top: 20px;
+}
+.patchwork-frame.disabled {
+    opacity: 0.5; 
+    pointer-events: none; 
+    cursor: not-allowed; 
+}
+
+.message {
+    font-size: 18px; 
+    text-align: center;
+    color: #333;
+}
+.p-image {
+    width: 100px; 
+    height: 100px; 
+    margin-bottom: 10px; 
+}
+
+.employee-image {
+    width: 50px;        
+    height: 50px;         
+    border-radius: 50%;    
+    object-fit: cover; 
+    border: 3px solid #000000; 
+}
+.frame-container2 {
+    border: 2px dashed #333; 
+    border-radius: 20px; 
+    padding: 10px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    width: 100%;
+
+    background-color: #f9f9f9; 
+    cursor: pointer; 
+}
+.all-container {
+    display: flex;
+    justify-content: space-between; 
+    padding: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.upload-button2 {
+    font-size: 20px; 
+    border: none;
+    background: none;
+    color: #000000; 
+}
+
+.upload-button2:hover {
+    color: #0056b3; 
+    
+}
+.department-select3 {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 3px solid black;
+    background-color: #ffffff;
+    border-radius: 18px;
+    margin-bottom: 15px;
+}
+.all-container2 {
+    padding: 20px;
+    overflow: hidden; 
+}
+.head-mess {
+    font-size: 25px;
+    color: #346566;
+    margin-bottom: 10px;
+    font-weight: bold;
+    position: relative;
+    margin-top: 5px;
+
+}
+.head-mess::after {
+    content: '';
+    position: absolute;
+    bottom: -5px; 
+    left: 0;
+    width: 100%; 
+    height: 5px; 
+    background-color: #D9D9D9; 
+    border-radius: 2px; 
+}
+
+.head-mess2 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+.upload-button3 {
+    font-size: 16px; 
+    border: none;
+    background: none;
+    color: #000000; 
+}
+
+.upload-button3:hover {
+    color: #0056b3; 
+    
+}
+

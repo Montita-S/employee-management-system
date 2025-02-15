@@ -1,0 +1,77 @@
+.verify-code-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+
+.verify-code-container h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.verify-code-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.verify-code-container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.verify-code-container input[type="text"]:focus {
+    border-color: #800F2F;
+}
+
+.verify-code-container button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #800F2F;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.verify-code-container button:hover {
+    background-color: #5a0b21;
+}
+
+.verify-code-container p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #d9534f;
+}
+.register-button2 {
+    margin-top: 15px;
+    display: block;
+    text-align: center;
+    color: #007bff;
+    text-decoration: underline;
+    cursor: pointer;
+ 
+    
+}
+
+.register-button2:hover {
+    color: #0056b3;
+}

@@ -1,0 +1,52 @@
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    background-color: #ECECEB;
+   
+
+}
+
+.logohome-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logohome {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.logo-container {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+}
+
+.sidebar-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sidebar-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+.sidebar-wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}

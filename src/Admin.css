@@ -1,0 +1,152 @@
+.admin-container {
+    padding: 18px;
+
+}
+.admin-select {
+    width: 100%; 
+    padding: 10px;
+    font-size: 16px;
+    border: 3px solid black;
+    background-color: #ffffff;
+    border-radius: 18px;
+
+}
+
+.admin-inputs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    gap: 20px; 
+    padding-right: 20px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    gap: 15px; 
+    
+
+}
+
+.ad-re3 {
+    margin-bottom: 15px;
+    margin-left: 5px;
+    width: 85%;
+    padding: 10px;
+    border: 2px solid #ccc; 
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #D9D9D9; 
+    color: #333; ;
+    margin-top: 15px;
+    
+}
+.ad-re3:focus {
+    border-color: #346566; 
+    outline: none;
+    background-color: #ffffff; 
+}
+.add-form-frame {
+    max-width: 700px;  
+
+    background-color: white;
+    padding: 20px;
+    border: 2px solid #346566;
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    
+}
+.add-form-frame2 {
+    width: 100%;  
+
+    background-color: white;
+    padding: 20px;
+    border: 2px solid #346566;
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    
+}
+.ad-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #346566;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.ad-button:hover {
+    background-color: #45a049;
+}
+
+.tabs-nav2 {
+    display: flex;
+    margin-bottom: 5px;
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    gap: 2px;
+
+}
+
+.tab-button2 {
+    padding: 10px 26px;
+
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.tab-button2.active-tab {
+    background-color: #346566;
+    color: white;
+    border-color: #346566;
+    font-weight: bold;
+}
+.reports-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 5px;
+}
+
+.reports-table th, .reports-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    text-align: center;
+}
+
+.reports-table th {
+    background-color: #f4f4f4;
+}
+
+tbody wan
+.reports-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.reports-table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.follow-image{
+    width: 20px;
+    height: 20px;
+}
+.button-main2 {
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    align-items: center;
+}
+.button-icon2 {
+    width: 2px; 
+    height: 2px; 
+}

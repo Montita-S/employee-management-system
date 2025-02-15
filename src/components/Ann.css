@@ -1,0 +1,368 @@
+.acc-inputs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    gap: 20px; 
+    padding-right: 20px; 
+}
+.acc-mes10 {
+    color: #000000;  
+    font-size: 24px;
+
+}
+.acc-mes {
+    color: #000000;  
+    font-size: 30px;
+
+}
+.acc-mes2 {
+    color: #000000;  
+    font-size: 20px;   
+    font-weight: bold;
+    margin-left: 10px;
+}
+.acc-mes4 {
+    color: #000000;  
+    font-size: 18px;   
+    font-weight: bold;
+  
+}
+.acc-mes3 {
+    color: #000000;  
+    font-size: 18px;
+    margin-left: 10px;
+
+}
+.acc-container {
+    padding: 18px;
+    overflow: hidden; 
+}
+.acc-image {
+    width: 50px;
+    height: 50px;
+
+}
+.acc-inputs2 {
+    display: flex;
+    align-items: center;
+
+    gap: 20px; 
+    padding-right: 20px; 
+    margin-bottom: 15px;
+}
+.acc-button {
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    color: #000000;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+
+}
+
+.acc-button:hover {
+    color: #007bff;
+}
+.search-input {
+    width: 300px;
+
+    padding: 5px 15px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+}
+
+.search-input:focus {
+    border-color: #000000;
+
+}
+
+.search-input::placeholder {
+    color: #999;
+
+    font-size: 14px;
+}
+.search-container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+.search-icon {
+    position: absolute;
+    left: 10px;
+    top: 35%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #ccc;
+}
+
+.search-input {
+    padding-left: 40px; 
+}
+
+.input-acc {
+    margin-bottom: 15px;
+
+    width: 270px;
+    padding: 5px;
+    border: 2px solid #000000; 
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #ffffff; 
+    color: #333; 
+    padding-left: 35px;
+}
+
+.input-acc:focus {
+    border-color: #346566; 
+    outline: none;
+    background-color: #eeeeee; 
+}
+
+.acc-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 5px;
+
+}
+.acc-card5 {
+    background: #faf8f8;
+
+    border-radius: 20px;
+    padding: 13px;
+    width: 310px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.acc-card10 {
+    background: #faf8f8;
+
+    border-radius: 20px;
+    padding: 13px;
+    width: 220px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.acc-card {
+    background: #faf8f8;
+
+    border-radius: 20px;
+    padding: 13px;
+    width: 270px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.acc-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+.date-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #346566;
+
+    border-radius: 20px;
+    padding: 15px;
+    width: 80px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 18px;
+}
+.date-mes {
+
+    font-weight: bold;
+    color: #000000;
+    font-size: 20px;
+}
+.button-icon {
+    width: 50px; 
+    height: 50px; 
+}
+.button-main {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 15px 5px;
+
+    align-items: center;
+}
+.acc-card2 {
+    padding: 15px;
+}
+.acc-card3 {
+    background: #faf8f8;
+    border-radius: 20px;
+    padding: 20px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    margin-top: 10px;
+    max-width: 700px;
+    word-wrap: break-word; 
+    overflow: hidden;
+}
+
+.acc-card3 p {
+    margin: 0; 
+    word-break: break-word; 
+}
+
+.acc-card3 a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.acc-card3 a:hover {
+    text-decoration: underline;
+}
+
+.popup-confirmation {
+    position: fixed; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    z-index: 1000; 
+}
+
+.popup-confirmation p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+}
+
+.popup-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.popup-buttons button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #346566; 
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 160px;
+}
+
+.popup-buttons button:hover {
+    background-color: #45a049;
+}
+
+.popup-buttons button:nth-child(2) {
+    background-color: #BB0909;
+}
+
+.popup-buttons button:nth-child(2):hover {
+    background-color: #e53935;
+}
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 0.3s ease-in-out;
+}
+.pop-mes2 {
+    color: #000000;  
+
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.pop-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    height: 100%;
+    width: 100%; 
+}
+.allem-inputs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.allem-inputs label {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.allem-inputs select {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 3px solid black;
+    background-color: #ffffff;
+    border-radius: 18px;
+    margin-bottom: 15px;
+}
+
+.allem-inputs select:focus {
+    border-color: #346566;
+    outline: none;
+    background-color: #fff;
+}
+
+
+.allem-inputs select:hover {
+    border-color: #007bff;
+}
+.ann-request-frame {
+    background: #ffffff;
+  
+    border-radius: 20px;
+    padding: 10px;
+  
+    transition: transform 0.2s, box-shadow 0.2s;
+  
+    margin-top: 7px;
+    font-size: 16px;
+    color: #000000;
+    border: 2px solid #000000;
+    
+}
+
+.head-mess10 {
+    font-size: 24px;
+    color: #346566;
+    margin-bottom: 10px;
+    font-weight: bold;
+    position: relative;
+    margin-top: 5px;
+
+}
+.head-mess10::after {
+    content: '';
+    position: absolute;
+    bottom: -5px; 
+    left: 0;
+    width: 100%; 
+    height: 5px; 
+    background-color: #D9D9D9; 
+    border-radius: 2px; 
+}

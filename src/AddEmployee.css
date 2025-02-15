@@ -1,0 +1,289 @@
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 20px;
+    flex-direction: row; 
+    flex-wrap: wrap;
+     
+}
+.tab-container {
+    padding: 18px;
+    overflow: hidden; 
+}
+
+.tab-button {
+    padding: 10px;
+    border: none;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+    outline: none;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    border: 2px solid #346566;
+}
+
+.tab-button.active {
+    background-color: #000000;
+    color: white;
+}
+.circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.tab-content {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    background-color: #ECECEB;
+    margin-bottom: 40px;
+}
+.input-4 {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #000;
+    padding: 10px;
+    margin-bottom: 15px;
+    outline: none;
+    transition: border-color 0.3s;
+    background-color: transparent; 
+    color: #000;  
+
+}
+
+.input-4:focus {
+    border-color: #000000; 
+    outline: none;
+    background-color: rgb(255, 255, 255);
+}
+.input-2 {
+    display: block;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    border-bottom: 2px solid #000; 
+}
+.input-2:focus {
+    border-color: #000000; 
+    outline: none;
+    background-color: rgb(255, 255, 255);
+}
+.input-3 {
+    display: block;
+    padding: 10px;
+    margin: 10px 0;
+    width: 92%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    border-bottom: 2px solid #000; 
+}
+.input-3:focus {
+    border-color: #000000; 
+    outline: none;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.tab-section {
+    margin-bottom: 10px; 
+}
+
+label {
+    display: block;              
+    margin: 10px 0 5px 0;      
+    font-weight: bold;          
+}
+
+.input-1 {
+    width: 100%;                
+    border: none;              
+    border-bottom: 2px solid #000; 
+    padding: 5px 0;            
+    margin-bottom: 15px;       
+    outline: none;            
+    transition: border-color 0.3s; 
+}
+
+.input-1:focus {
+    border-bottom-color: #007bff; 
+}
+
+.submit-button {
+    padding: 15px;
+    background-color: #346566 ;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: bold;
+   
+}
+
+.submit-button:hover {
+    background-color: #000000;
+}
+
+.input-group {
+    display: flex;               
+    align-items: center;        
+    margin: 10px 0;            
+}
+.line {
+    height: 2px;
+    background-color: #ddd;
+    flex: 1;
+    margin-top: 20px;
+}
+.mes-tab{
+    margin-left: 10px;
+}
+
+.tab-frame {
+    max-width: 900px; 
+    margin: 0 auto;
+    background-color: #ECECEB;
+    padding: 20px;
+    
+    border-radius: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.form-title2 {
+    font-size: 25px;
+    color: #346566;
+    margin-bottom: 10px;
+    font-weight: bold;
+    position: relative;
+    margin-top: 5px;
+}
+.form-title2::after {
+    content: '';
+    position: absolute;
+    bottom: -5px; 
+    left: 0;
+    width: 100%; 
+    height: 5px; 
+    background-color: #D9D9D9; 
+    border-radius: 2px; 
+}
+.head-mess {
+    font-size: 25px;
+    color: #346566;
+    margin-bottom: 10px;
+    font-weight: bold;
+    position: relative;
+    margin-top: 5px;
+
+}
+
+.add-department-button {
+    background-color: #346566;
+    color: rgb(236, 235, 235); 
+    font-size: 16px; 
+    padding: 7px 15px;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+}
+
+.add-department-button:hover {
+    background-color: #45a049;
+}
+
+.add-department-button:active {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
+.tab-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+
+}
+.mess-tab{
+    font-size: 16px;
+    margin-top: 7px;
+}
+
+.remove-department-button {
+    background: none; 
+    border: none;
+    padding: 0;
+    cursor: pointer; 
+    transition: transform 0.3s ease; 
+}
+
+
+.remove-icon {
+    width: 24px;
+    height: 24px; 
+    margin-top: 4px;
+}
+
+
+.remove-department-button:hover .remove-icon {
+    transform: scale(1.2); 
+}
+.department-item{
+    border:2px dashed #A6A6A6;
+
+    border-radius: 20px;
+    padding: 5px;
+
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.phone-row {
+
+    align-items: center;
+
+}
+.remove-phone-btn {
+    margin-left: 8px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 1px 2px;
+    cursor: pointer;
+    
+}
+.add-phone-btn {
+
+    background-color: #4CAF50;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.input-5 {
+    display: block;
+    padding: 10px;
+    margin: 10px 0;
+    width: 87%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    border-bottom: 2px solid #000; 
+}
+.input-5:focus {
+    border-color: #000000; 
+    outline: none;
+    background-color: rgb(255, 255, 255);
+}

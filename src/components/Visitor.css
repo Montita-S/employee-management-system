@@ -1,0 +1,290 @@
+.visitor-container {
+    padding: 18px;
+    overflow: hidden; 
+}
+
+.weekday {
+    color: #000000;  
+    font-weight: bold;
+    text-align: center;
+    padding: 1px;
+}
+
+.day {
+    color: #000000; 
+    font-size: 18px;
+    text-align: center;
+    padding: 1px;
+    border-top: 1px solid #000000;
+}
+
+.weekbutton {
+    background-color: white;
+    border: 2px solid #000000; 
+    padding: 1px;
+    cursor: pointer;
+    border-radius: 15px;  
+    display: inline-block;
+    margin: 5px;
+    text-align: center;
+    transition: background-color 0.3s;
+    width: 44px;  
+    height: 70px;
+    
+}
+
+.weekbutton:hover {
+    background-color: #f0f0f0; 
+}
+.weekbutton:focus {
+    background-color: #A6A6A6; 
+    
+}
+.day-mes {
+    color: #346566;  
+
+    font-size: 25px;
+}
+.date-inputs {
+    display: flex;
+    align-items: center;
+    gap: 10px;  
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.date-inputs label {
+    font-weight: bold;  
+    color: #000000;  
+    font-size: 15px;  
+    margin-right: 1px;
+}
+
+.date-inputs input {
+    padding: 8px 12px; 
+    border: 2px solid #ccc;  
+    border-radius: 4px;  
+    font-size: 14px; 
+    transition: all 0.3s ease;  
+}
+
+.date-inputs input:focus {
+    border-color: #346566;  
+    outline: none;  
+}
+
+.date-inputs input::placeholder {
+    color: #000000;  
+}
+
+.date-inputs input:hover {
+    border-color: #000000;  
+}
+
+.date-inputs input:focus, .date-inputs label:focus {
+    color: #346566; 
+}
+
+.date-inputs input:not(:placeholder-shown) {
+    background-color: #eaf1ea; 
+}
+
+.visit-mes {
+    color: #000000;  
+
+    font-size: 30px;
+    margin-left: 10px;
+}
+.visit-inputs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    gap: 20px; 
+    padding-right: 20px; 
+}
+
+
+.visitor-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.visitor-card {
+    background: #faf8f8;
+
+    border-radius: 20px;
+    padding: 15px;
+    width: 575px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.visitor-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.visitor-info {
+    display: flex;
+
+}
+
+.visitor-info-left {
+    flex: 1;
+    text-align: left;
+    display: flex;
+    align-items: center; 
+    margin-left: 1px;
+}
+.visitor-info-left2 {
+    flex: 1;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+}
+.visitor-info-left3 {
+    flex: 1;
+    text-align: right;
+    font-size: 16px;
+}
+
+
+.visitor-info-right {
+    flex: 1;
+    text-align: right;
+    margin-right: 10px;
+}
+.visitor-icon {
+    width: auto;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.pic-from{
+    width: 20px;
+    height: 20px;
+    margin-right: 2px;
+}
+.visitor-frame {
+    position: relative;
+    background-color: #f0f0f0; 
+    padding: 5px;
+    border-radius: 30px;
+    max-height: 500px; 
+    overflow-y: auto; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease-out; 
+}
+.visit-button {
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    color: #000000;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+
+}
+
+.visit-button:hover {
+    color: #007bff;
+}
+.visitor-image-container {
+    text-align: center;
+
+}
+
+.visitor-image {
+    width: 30px;
+    height: 20px;
+    margin-top: 10px;
+}
+.pop-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    height: 100%;
+    width: 100%; 
+}
+
+.pop-mes2 {
+    color: #000000;  
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 15px; 
+}
+
+.pop-inputs2 {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 10px;
+}
+.warning-button {
+    background-color: #ffffff; 
+    color: #000000; 
+    border: 2px solid #000000;
+    border-radius: 5px;
+    padding: 10px 20px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    cursor: pointer;
+    transition: all 0.3s ease; 
+    width: 100px;
+}
+
+.warning-button:hover {
+    background-color: #346566; 
+    transform: scale(1.05); 
+    color: #ffffff; 
+}
+
+.warning-button2 {
+    background-color: #ffffff; 
+    color: #000000;
+    border: 2px solid #000000;
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+    width: 100px;
+}
+
+.warning-button2:hover {
+    background-color: #ff1a1a; 
+    transform: scale(1.05); 
+    color: #ffffff; 
+}
+
+.car-request-frame {
+    background: #ffffff;
+  
+    border-radius: 20px;
+    padding: 15px;
+  
+    transition: transform 0.2s, box-shadow 0.2s;
+  
+    margin-top: 7px;
+    font-size: 16px;
+    color: #000000;
+    border: 2px solid #000000;
+    
+  }
+  .visit-mes2 {
+    color: #8b8585;  
+
+    font-size: 18px;
+
+}
+.visit-mes3 {
+    color: #000000;  
+
+    font-size: 30px;
+
+}

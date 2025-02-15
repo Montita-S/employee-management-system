@@ -1,0 +1,39 @@
+.tabs-container1 {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.tabs-nav1 {
+    display: flex;
+    margin-bottom: 5px;
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    gap: 2px;
+}
+
+.tab-button1 {
+    padding: 10px 26px;
+    margin-right: 2px;
+    margin-left: 2px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.tab-button1.active {
+    background-color: #346566;
+    color: white;
+    border-color: #346566;
+    font-weight: bold;
+}
+
+.tabs-content1 {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
